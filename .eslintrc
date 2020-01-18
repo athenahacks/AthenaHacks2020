@@ -1,4 +1,15 @@
 {
   "parser": "babel-eslint",
-  "extends": ["standard", "standard-react"]
+  "extends": ["standard", "standard-react"],
+
+  "rules": {
+    "semi": ["error", "never"],
+
+    "no-extra-semi": "error",
+    "quotes": [
+      "error",
+      "single"
+    ]
+
+  }
 }
