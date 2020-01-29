@@ -8,17 +8,17 @@ export default function Schedule () {
       <div className='saturday'>
         <div className='day'><text className='title'>Saturday</text></div>
         <div className='event'>
-          <div className='box main'><text className='title'>Opening Ceremony</text><text>10am-12pm | Bovard Auditorium</text></div>
+          <div className='box main two-hour'><text className='title'>Opening Ceremony</text><text>10am-12pm | Bovard Auditorium</text></div>
         </div>
         <div className='event'>
-          <div className='box food'><text className='title'>Lunch</text><text>12pm-1pm | TCC</text></div>
+          <div className='box food one-hour'><text className='title'>Lunch</text><text>12pm-1pm | TCC</text></div>
         </div>
         <div className='event'>
-          <div className='box important'><text>Hacking Starts</text><text>3:00pm</text></div>
+          <div className='box important '><text>Hacking Starts</text><text>3:00pm</text></div>
         </div>
         <div className='event'>
-          <div className='box workshop'><text className='title'>How to Build Your First API -  Honey</text><text>3:00-4:30pm | TCC 352</text></div>
-          <div className='box workshop'><text className='title'>How to Build Your First API -  Honey</text><text>3:00-4:30pm | TCC 352</text></div>
+          <div className='box workshop one-hour-plus-half'><text className='title'>How to Build Your First API -  Honey</text><text>3:00-4:30pm | TCC 352</text></div>
+          <div className='box workshop one-hour-plus-half'><text className='title'>How to Build Your First API -  Honey</text><text>3:00-4:30pm | TCC 352</text></div>
 
         </div>
       </div>

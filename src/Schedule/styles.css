@@ -60,7 +60,25 @@
     font-size: calc(2vmin);
     margin: 5px;
 }
-
+.box2 {
+    display: flex;
+    flex: 1;
+    
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: calc(2vmin);
+    margin: 5px;
+}
+.one-hour {
+    height: 5vh;
+}
+.one-hour-plus-half {
+    height: 7vh;
+}
+.two-hour {
+    height: 10vh;
+}
 .title {
     font-weight: 700;
 }

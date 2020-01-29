@@ -13,7 +13,7 @@
 .home {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   background-color: #0f0d20;
@@ -29,7 +29,7 @@
 }
 
 .welcome-logo img {
-  height: 70vmin;
+  height: 60vmin;
   pointer-events: none;
 }
 
@@ -37,21 +37,24 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  margin: 5%;
+  align-items: flex-start;
 }
+
 
 .welcome-title {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   color: #fad86f;
-  font-size: calc(6vmin);
 }
 
 .welcome-title img {
-  padding-left: 40px;
   width: 80vmin;
   pointer-events: none;
+  padding: 0;
+}
+.welcome-title text {
+  font-size: calc(6vmin);
+
 }
 
 .welcome-info {
@@ -76,5 +79,4 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px;
 }
