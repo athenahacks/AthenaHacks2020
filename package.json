@@ -45,6 +45,6 @@
     "eslint-plugin-standard": "^4.0.1"
   },
   "engines": {
-    "yarn": "1.19.1"
+    "yarn": "1.21.1"
   }
 }
