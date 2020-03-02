@@ -35,10 +35,11 @@ export default function Home () {
             <text>
                 USC Guest Wireless
             </text>
-            <text>LINK</text>
-            <text>LINK</text>
-            <text>LINK</text>
-            <text>LINK</text>
+            <a target='_blank' rel='noopener noreferrer' href="https://athenahacks2020.devpost.com/">athenahacks2020.devpost.com</a>
+            <a target='_blank' rel='noopener noreferrer' href='http://bit.ly/athenahacks2020slack'>bit.ly/athenahacks2020slack</a>
+            <text>(213) 740-6000</text>
+            <a target='_blank' rel='noopener noreferrer' href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>mlh-code-of-conduct.pdf</a>
+
           </div>
         </div>
       </div>
