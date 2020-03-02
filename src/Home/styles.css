@@ -110,4 +110,10 @@
     align-self: center;
     font-size: calc(4vmin)
   }
+  .welcome-column-label {
+    padding: 5px;
+  }
+  .welcome-column {
+    padding: 5px;
+  }
 }
