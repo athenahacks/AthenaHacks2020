@@ -2,6 +2,9 @@ import React from 'react'
 import './App.css'
 import Home from './Home/Home'
 import Schedule from './Schedule/Schedule'
+import Map from './Map/Map'
+import FAQ from './FAQ/FAQ'
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -51,12 +54,12 @@ export default function App () {
         <Route path='/schedule'>
           <Schedule />
         </Route>
-        {/* <Route path="/map">
-            <Map />
-          </Route>
-          <Route path="/faq">
-            <FAQ />
-          </Route> */}
+        <Route path='/map'>
+          <Map />
+        </Route>
+        <Route path='/faq'>
+          <FAQ />
+        </Route>
       </Switch>
     </Router>
   )

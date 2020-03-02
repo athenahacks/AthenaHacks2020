@@ -6,7 +6,7 @@ import './styles.css'
 
 export default function Home () {
   return (
-    <div className='home'>
+    <div id='home'>
       <div className='welcome-logo'>
         <img src={logo} alt='logo' />
       </div>
