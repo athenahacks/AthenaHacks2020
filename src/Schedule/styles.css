@@ -5,99 +5,40 @@
 }
 
 * {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 .schedule {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
-    background-color: #0f0d20;
+    justify-content: space-evenly;
+    background-color: #2d2d4f;
     color: white;
-    height: 100vh;
     width: 100vw;
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-
-.saturday {
-    flex: 1;
-    max-width: 40%;
-}
-
-.sunday {
-    flex: 1;
-    max-width: 40%;
-
-}
-
-.day {
+.schedule img {
     display: flex;
-    justify-content: center;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 10px;
-    margin: 0px 5px 30px 5px;
-    border-radius: 5px;
-    border: white solid 1px;
-    font-size: calc(3vmin);
+    width: 45vw;
+}
+.schedule h1 {
+    font-size: 2em;
+    margin-top: 15px;
+    margin-bottom: 10px; 
 }
 
-.event {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    color: #0f0d20;
-    text-align: left;
-}
+@media (max-width: 1025px) {
+    .schedule {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0%;
 
-.box {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: calc(2vmin);
-    margin: 5px;
-}
-.box2 {
-    display: flex;
-    flex: 1;
-    
-    flex-direction: column;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: calc(2vmin);
-    margin: 5px;
-}
-.one-hour {
-    height: 5vh;
-}
-.one-hour-plus-half {
-    height: 7vh;
-}
-.two-hour {
-    height: 10vh;
-}
-.title {
-    font-weight: 700;
-}
-
-.main {
-    background-color: #9dd8d2;
-}
-
-.food {
-    background-color: #d89dae;
-}
-
-.workshop {
-    background-color: #967ad2;
-}
-
-.important {
-    background-color: #0f0d20;
-    color: white;
-    text-align: center;
-    font-weight: 700;
+    }
+    .schedule img {
+        width: 95vw;
+    }
 }
