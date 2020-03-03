@@ -4,7 +4,7 @@ import Home from './Home/Home'
 import Schedule from './Schedule/Schedule'
 import Map from './Map/Map'
 import FAQ from './FAQ/FAQ'
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
 import {
   BrowserRouter as Router,
