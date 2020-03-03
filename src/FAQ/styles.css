@@ -12,6 +12,46 @@
   background-color: #2d2d4f;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 7%;
+}
+
+.questions-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: stretch; */
+  /* text-align: left; */
+  font-size: 20px;
+  color: white;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 40vw;
+  flex: 1;
+}
+.two {
+  /* align-items: flex-end; */
+  text-align: left;
+}
+
+.question {
+  /* align-self: center; */
+  /* text-align: left; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.title {
+  font-size: 1.5em;
+}
+.answer {
+  font-size: 0.8em;
+}
+.answer a {
+  color: #9dd9d2;
+  
 }
 
 
