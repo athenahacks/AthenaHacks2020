@@ -2,12 +2,12 @@ import React from 'react'
 
 import './styles.css'
 
-export default function Map() {
+export default function Map () {
   return (
     <div id='faq'>
       <div className='questions-col'>
 
-      <div className='question'>
+        <div className='question'>
           <div className='title'>Where should I go to check-in when I arrive</div>
           <div className='answer'>Come to the check-in tables outside Bovard Auditorium on Trousdale Blvd. </div>
         </div>
@@ -43,14 +43,13 @@ export default function Map() {
       </div>
       <div className='questions-col two'>
         <div className='question'>
-
           <div className='title'>How do I find people to hack with?</div>
           <div className='answer'>Look for AthenaHacks volunteers around the check-in area who can help connect with others who also are looking for teammates </div>
         </div>
         <div className='question'>
 
           <div className='title'>How do I find a mentor?</div>
-          <div className='answer'>Look for someone in a light blue shirt or message in the #mentor channel on Slack.</div>
+          <div className='answer'>Look for someone in a dark purple shirt or message in the #mentor channel on Slack.</div>
         </div>
         <div className='question'>
 
@@ -62,7 +61,7 @@ export default function Map() {
           <div className='answer'>Look for an organizer with a light pink shirt on or come to the organizer nest on the stage in TCC Ballroom</div>
         </div>
         <div className='question'>
-          <div className='title'>What if I have an emergency? </div>
+          <div className='title'>What if I have an emergency?</div>
           <div className='answer'>For emergencies contact USC's Department of Public Safety at (213)-740-4321. For non-emergencies, contact (213)-740-6000</div>
         </div>
         <div className='question'>

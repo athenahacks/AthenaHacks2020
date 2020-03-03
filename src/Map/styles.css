@@ -12,9 +12,33 @@
   background-color: #2d2d4f;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5%;
 }
 
+#accordian {
+  width: 40vw;
+  color: #2d2d4f;
+  border: none;
+}
 
+#accordian img {
+  width: 100%;
+}
+
+div.card-body {
+  background-color: #2d2d4f;
+  width: 100%;
+}
+div.card-header {
+  background-color: #f4dbd8;
+  border: 1px #2d2d4f solid;
+}
 @media (max-width: 1025px) {
-
+  #accordian {
+    width: 90vw;
+  }
 }
