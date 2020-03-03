@@ -1,5 +1,5 @@
 import React from 'react'
-import { Accordion, Card } from 'react-bootstrap'
+// import { Accordion, Card } from 'react-bootstrap'
 
 import basementLVL from '../assets/map_0.jpg'
 import groundLVL from '../assets/map_1.jpg'
@@ -12,7 +12,7 @@ import './styles.css'
 export default function Map() {
   return (
     <div id='map'>
-      <Accordion defaultActiveKey="1" id='accordian'>
+      {/* <Accordion defaultActiveKey="1" id='accordian'>
         <Card>
           <Accordion.Toggle as={Card.Header} eventKey="0">
             Basement LVL
@@ -55,7 +55,7 @@ export default function Map() {
             <Card.Body> <img src={LVL4} /></Card.Body>
           </Accordion.Collapse>
         </Card>
-      </Accordion>
+      </Accordion> */}
    
     </div>
   )
