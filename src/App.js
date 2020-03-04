@@ -45,7 +45,7 @@ export default function App () {
         >
           FAQ
         </NavLink>
-
+        
       </div>
       <Switch>
         <Route exact path='/'>

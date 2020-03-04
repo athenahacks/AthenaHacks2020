@@ -70,6 +70,10 @@
   font-size: calc(3vmin);
 }
 
+.welcome-info a:hover{
+  color: #9dd9d2;
+}
+
 .welcome-column-label {
   display: flex;
   flex-direction: column;
@@ -89,6 +93,20 @@
 .welcome-column a {
   /* text-decoration: none; */
   color: white;
+}
+
+.social-icons a{
+  padding: 1.7em;
+  text-align: right;
+  float: right;
+}
+.social-icons {
+  display: flex;
+  text-align: right;
+  float: right;
+}
+.social-icons-div {
+  margin: 0 auto;
 }
 
 @media (max-width: 1025px) {
