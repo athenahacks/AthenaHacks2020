@@ -28,7 +28,7 @@ export default function Home () {
           </div>
           <div className='welcome-column'>
             <text>
-                Bovard Auditorium
+                Trousdale Pkwy by TCC
             </text>
             <text>
                 TCC Ballroom
