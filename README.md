@@ -4,18 +4,11 @@ Live event website for AthenaHacks 2020.
 ## Setup:
 In the project directory, you can run:
 
-### `yarn install`
+### `npm install`
 
 Installs dependencies
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn lint`  &&  `yarn lint --fix`
-
-Runs eslint and optionally with `--fix` will also fix as many as possible automatically
