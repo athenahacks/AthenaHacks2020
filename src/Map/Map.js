@@ -10,6 +10,7 @@ import LVL4 from '../assets/map_4.jpg'
 import './styles.css'
 
 export default function Map() {
+  
   return (
     <div id='map'>
       <Accordion defaultActiveKey="1" id='accordian'>
@@ -56,7 +57,7 @@ export default function Map() {
           </Accordion.Collapse>
         </Card>
       </Accordion>
-   
+      
     </div>
   )
 }
