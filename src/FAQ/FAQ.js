@@ -2,7 +2,7 @@ import React from 'react'
 
 import './styles.css'
 
-export default function Map () {
+export default function Map() {
   return (
     <div id='faq'>
       <div className='questions-col'>
@@ -46,6 +46,13 @@ export default function Map () {
         </div>
       </div>
       <div className='questions-col two'>
+        <div className='question'>
+          <div className='title'>What if I'm a virtual hacker? </div>
+          <div className='answer'><a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1syv8jyNdTYmUzuuIx7ZpiP1QL3sWLv21Nzsl2ydoisQ/view'>Check out our virtual hacking guide</a>
+          <br/>
+          If you run into any problems, please Slack us in the #help channel or email us at athenahacks@gmail.com</div>
+        </div>
+
         <div className='question'>
           <div className='title'>How do I find people to hack with?</div>
           <div className='answer'>We will hold team formation activities during check-in and after that, you can message in #team-formation <a target="_blank" href="https://bit.ly/athenahacks2020slack">Slack</a> channel to look for teammates! </div>
