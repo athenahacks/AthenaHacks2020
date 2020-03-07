@@ -23,6 +23,7 @@ export default function Home () {
             <text>WIFI</text>
             <text>Devpost</text>
             <text>Slack</text>
+            <text>Virtual Hacker Info</text>
             <text>Emergency</text>
             <text>Non-Emergency</text>
             <text>MLH Code of Conduct</text>
@@ -39,6 +40,7 @@ export default function Home () {
             </text>
             <a target='_blank' rel='noopener noreferrer' href="https://athenahacks2020.devpost.com/">athenahacks2020.devpost.com</a>
             <a target='_blank' rel='noopener noreferrer' href='http://bit.ly/athenahacks2020slack'>bit.ly/athenahacks2020slack</a>
+            <a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1syv8jyNdTYmUzuuIx7ZpiP1QL3sWLv21Nzsl2ydoisQ/view'>How-To</a>
             <text>(213)-740-4321</text>
             <text>(213)-740-6000</text>
 
