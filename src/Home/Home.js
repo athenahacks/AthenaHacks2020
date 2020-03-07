@@ -49,13 +49,13 @@ export default function Home () {
         </div>
         <div className="social-icons-div">
           <div className="social-icons">
-                  <a href="https://www.facebook.com/athenaHacks" target="_blank">
+                  <a target='_blank' rel='noopener noreferrer' href="https://www.facebook.com/athenaHacks">
                     <FaFacebookSquare color="white" size='1.5em'/>
                   </a>
-                  <a href="https://www.instagram.com/athena_hacks/?hl=en" target="_blank">
+                  <a target='_blank' rel='noopener noreferrer' href="https://www.instagram.com/athena_hacks/?hl=en">
                     <FaInstagram color="white" size='1.5em'/>
                   </a>
-                  <a href="mailto:athenahacks@gmail.com" target="_blank">
+                  <a target='_blank' rel='noopener noreferrer' href="mailto:athenahacks@gmail.com">
                     <FaMailBulk color="white" size='1.5em'/>
                   </a>
             </div>

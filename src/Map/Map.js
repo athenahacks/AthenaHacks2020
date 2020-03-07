@@ -20,7 +20,7 @@ export default function Map() {
           </Accordion.Toggle>
 
           <Accordion.Collapse eventKey="0">
-            <img src={basementLVL} />
+            <img alt="basementlvl" src={basementLVL} />
           
           </Accordion.Collapse>
         </Card>
@@ -29,7 +29,7 @@ export default function Map() {
             First Floor (Ground LVL)
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="1">
-            <Card.Body> <img src={groundLVL} /></Card.Body>
+            <Card.Body> <img alt="firstlvl" src={groundLVL} /></Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card>
@@ -37,7 +37,7 @@ export default function Map() {
             Second Floor
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="2">
-            <Card.Body> <img src={LVL2} /></Card.Body>
+            <Card.Body> <img alt="secondlvl" src={LVL2} /></Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card>
@@ -45,7 +45,7 @@ export default function Map() {
             Third Floor
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="3">
-            <Card.Body> <img src={LVL3} /></Card.Body>
+            <Card.Body> <img alt="thirdlvl" src={LVL3} /></Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card>
@@ -53,7 +53,7 @@ export default function Map() {
             Fourth Floor
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="4">
-            <Card.Body> <img src={LVL4} /></Card.Body>
+            <Card.Body> <img alt="fourthlvl" src={LVL4} /></Card.Body>
           </Accordion.Collapse>
         </Card>
       </Accordion>
