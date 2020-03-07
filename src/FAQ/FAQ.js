@@ -17,7 +17,7 @@ export default function Map() {
         </div>
         <div className='question'>
           <div className='title'>What should I bring?</div>
-          <div className='answer'>Laptop, charger, water bottle, change of clothes, government ID (student ID is fine for USC students), find the full list <a href="https://medium.com/@athenahacks/what-to-bring-to-a-hackathon-e21ebc28ff6c" target="_blank">here</a>.</div>
+          <div className='answer'>Laptop, charger, water bottle, change of clothes, government ID (student ID is fine for USC students), find the full list <a href="https://medium.com/@athenahacks/what-to-bring-to-a-hackathon-e21ebc28ff6c" target="_blank" rel='noopener noreferrer'>here</a>.</div>
         </div>
         <div className='question'>
           <div className='title'>What time does hacking start? </div>
@@ -55,12 +55,12 @@ export default function Map() {
 
         <div className='question'>
           <div className='title'>How do I find people to hack with?</div>
-          <div className='answer'>We will hold team formation activities during check-in and after that, you can message in #team-formation <a target="_blank" href="https://bit.ly/athenahacks2020slack">Slack</a> channel to look for teammates! </div>
+          <div className='answer'>We will hold team formation activities during check-in and after that, you can message in #team-formation <a target='_blank' rel='noopener noreferrer' href="https://bit.ly/athenahacks2020slack">Slack</a> channel to look for teammates! </div>
         </div>
         <div className='question'>
 
           <div className='title'>How do I find a mentor?</div>
-          <div className='answer'>Look for someone in a dark purple shirt or post your questions in the #ask-mentor channel on Slack (include your table number to help mentors locate you).</div>
+          <div className='answer'>Look for someone in a dark purple shirt or post your questions in the #ask-mentors channel on Slack (include your table number to help mentors locate you).</div>
         </div>
         <div className='question'>
           <div className='title'>What if I need help with something non-technical?</div>
@@ -75,7 +75,7 @@ export default function Map() {
           <div className='answer'>We are taking deliberate steps to keep the spread of germs down during the hackathon weekend. We will have hand sanitizer stations in the hacking space and during all meals. All servers at meals will also be wearing gloves. </div>
         </div>
         <div className='question'>
-          <div className='title'>Where are some health advices? </div>
+          <div className='title'>What are some health advices? </div>
           <div className='answer'>Handwash for 20 seconds with soap and water, avoid touching your eyes, nose and mouth. Cover your cough and sneeze with a tissue.</div>
         </div>
         <div className='question'>
