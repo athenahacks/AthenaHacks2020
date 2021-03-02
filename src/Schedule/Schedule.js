@@ -1,6 +1,6 @@
 import React from 'react'
-import ScheduleImg from '../assets/schedule.jpg'
-import ScheduleImg2 from '../assets/schedule2.jpg'
+import ScheduleImg from '../assets/saturday_sched.jpg'
+import ScheduleImg2 from '../assets/sunday_sched.jpg'
 import {Container, Row, Col} from "react-bootstrap"
 
 import './styles.css'

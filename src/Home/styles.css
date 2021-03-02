@@ -16,7 +16,7 @@
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  background-color: #2d2d4f;
+  background-color: #210F52;
   width: 100vw;
   height: 100vh;
 
@@ -47,7 +47,7 @@
 .welcome-title {
   display: flex;
   flex-direction: column;
-  color: #fad86f;
+  color: #D86B9C;
 }
 
 .welcome-title img {
@@ -71,7 +71,7 @@
 }
 
 .welcome-info a:hover{
-  color: #9dd9d2;
+  color: #FFCCE9;
 }
 
 .welcome-column-label {

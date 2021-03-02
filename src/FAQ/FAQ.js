@@ -6,33 +6,28 @@ export default function Map() {
   return (
     <div id='faq'>
       <div className='questions-col'>
-
         <div className='question'>
-          <div className='title'>Where should I go to check-in when I arrive?</div>
-          <div className='answer'>Come to the check-in tables on Trousdale Pkwy right by Tutor Campus Center (TCC). </div>
+          <div className='title'>How do I check in virtually?</div>
+          <div className='answer'>Join the Discord and head over to the #start-here channel. </div>
         </div>
         <div className='question'>
-          <div className='title'>Where is late check-in?</div>
-          <div className='answer'>Come to the help desk outside TCC Ballroom in the basement.</div>
-        </div>
-        <div className='question'>
-          <div className='title'>What should I bring?</div>
-          <div className='answer'>Laptop, charger, water bottle, change of clothes, government ID (student ID is fine for USC students), find the full list <a href="https://medium.com/@athenahacks/what-to-bring-to-a-hackathon-e21ebc28ff6c" target="_blank" rel='noopener noreferrer'>here</a>.</div>
+          <div className='title'>What if I need to check in late?</div>
+          <div className='answer'>You can check in at any time in the #start-here channel in the <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'> Discord. </a></div>
         </div>
         <div className='question'>
           <div className='title'>What time does hacking start? </div>
-          <div className='answer'>Hacking officially starts at 1:30pm after opening ceremony!</div>
+          <div className='answer'>Hacking officially starts at 12:30pm PT after opening ceremony!</div>
         </div>
         <div className='question'>
           <div className='title'>What time does hacking end? </div>
-          <div className='answer'>Hacking officially ends at 12pm. Submissions are due at 11:30am with a 30 min buffer for troubleshooting Devpost.</div>
+          <div className='answer'>Hacking officially ends at 12pm PT. Submissions are due at 12:30pm with a 30 min buffer for troubleshooting Devpost.</div>
         </div>
         <div className='question'>
           <div className='title'>How do I submit my project?</div>
-          <div className='answer'>Submit your project on our Devpost.
-          <a target='_blank' rel='noopener noreferrer' href='http://athenahacks2020.devpost.com'> athenahacks2020.devpost.com. </a>
+          <div className='answer'>Submit your project on our
+          <a target='_blank' rel='noopener noreferrer' href='http://athenahacks2020.devpost.com'> Devpost. </a>
             <br />
-            If you have issues submitting, come to the organizer's nest on the TCC Ballroom stage.
+            If you have issues submitting, ask an organizer for help in the <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'> Discord. </a>
           </div>
         </div>
         <div className='question'>
@@ -41,46 +36,37 @@ export default function Map() {
           </div>
         </div>
         <div className='question'>
-          <div className='title'>How can I checkout hardware?</div>
-          <div className='answer'>Look for the MLH table around the edge of TCC Ballroom for the Hardware Lab. </div>
+          <div className='title'>How can I use hardware in my project?</div>
+          <div className='answer'>Unfortunately due to the virtual nature of AthenaHacks 2021 we are unable to provide hardware to teams. However, are welcome to still hack with hardware if you can provide it! </div>
         </div>
       </div>
       <div className='questions-col two'>
         <div className='question'>
-          <div className='title'>What if I'm a virtual hacker? </div>
-          <div className='answer'><a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1syv8jyNdTYmUzuuIx7ZpiP1QL3sWLv21Nzsl2ydoisQ/view'>Check out our virtual hacking guide</a>
-          <br/>
-          If you run into any problems, please Slack us in the #help channel or email us at athenahacks@gmail.com</div>
+          <div className='title'>What if one of the session links doesn't work? </div>
+          <div className='answer'>
+          If you run into any problems, please message us on <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'> Discord</a> in the #ask-organizers channel or email us at athenahacks@gmail.com</div>
         </div>
 
         <div className='question'>
           <div className='title'>How do I find people to hack with?</div>
-          <div className='answer'>We will hold team formation activities during check-in and after that, you can message in #team-formation <a target='_blank' rel='noopener noreferrer' href="https://bit.ly/athenahacks2020slack">Slack</a> channel to look for teammates! </div>
+          <div className='answer'>We will hold team formation activities on March 6th from 10 am - 11 am PT and after that, you can message in #team-formation <a target='_blank' rel='noopener noreferrer' href="https://discord.gg/kXYN454G">Discord</a> channel to look for teammates! </div>
         </div>
         <div className='question'>
 
           <div className='title'>How do I find a mentor?</div>
-          <div className='answer'>Look for someone in a dark purple shirt or post your questions in the #ask-mentors channel on Slack (include your table number to help mentors locate you).</div>
+          <div className='answer'>Look for someone on the <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'> Discord </a> with the mentor role or post your questions in the #ask-mentors channel on Discord (include your team number to help mentors respond to you quickly).</div>
         </div>
         <div className='question'>
           <div className='title'>What if I need help with something non-technical?</div>
-          <div className='answer'>Look for an organizer with a light pink shirt on or come to the organizer nest on the stage in TCC Ballroom.</div>
+          <div className='answer'>Look for an organizer on the <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'> Discord </a> with the organizer role or post your questions in the #ask-organizers channel.</div>
         </div>
         <div className='question'>
-          <div className='title'>What if I have an emergency?</div>
-          <div className='answer'>For emergencies contact USC's Department of Public Safety at (213)-740-4321. For non-emergencies, contact (213)-740-6000.</div>
-        </div>
-        <div className='question'>
-          <div className='title'>What is AthenaHacks doing about Coronavirus? </div>
-          <div className='answer'>We are taking deliberate steps to keep the spread of germs down during the hackathon weekend. We will have hand sanitizer stations in the hacking space and during all meals. All servers at meals will also be wearing gloves. </div>
-        </div>
-        <div className='question'>
-          <div className='title'>What are some health advices? </div>
-          <div className='answer'>Handwash for 20 seconds with soap and water, avoid touching your eyes, nose and mouth. Cover your cough and sneeze with a tissue.</div>
+          <div className='title'>What if I need to contact an organizer urgently?</div>
+          <div className='answer'>If you can't message an organizer on <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'> Discord </a> for any reason you can call or text 571-425-1850.</div>
         </div>
         <div className='question'>
           <div className='title'>Any other questions? </div>
-          <div className='answer'>Ask in #help channel on Slack or email athenahacks@gmail.com. </div>
+          <div className='answer'>Ask in #ask-organizers channel on Discord or email athenahacks@gmail.com. </div>
         </div>
       </div>
 

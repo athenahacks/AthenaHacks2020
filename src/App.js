@@ -33,13 +33,6 @@ export default function App () {
         </NavLink>
         <NavLink
           className='App-link'
-          exact to='/map'
-          activeClassName='selected'
-        >
-          MAP
-        </NavLink>
-        <NavLink
-          className='App-link'
           to='/faq'
           activeClassName='selected'
         >
@@ -53,9 +46,6 @@ export default function App () {
         </Route>
         <Route path='/schedule'>
           <Schedule />
-        </Route>
-        <Route path='/map'>
-          <Map />
         </Route>
         <Route path='/faq'>
           <FAQ />

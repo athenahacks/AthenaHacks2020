@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../assets/owl_2020_moon.png'
-import logotext from '../assets/athena_text_2020.png'
+import logo from '../assets/couchowl.png'
+import logotext from '../assets/whitelogo_notext.png'
 import { FaFacebookSquare, FaInstagram, FaMailBulk} from "react-icons/fa";
 
 import './styles.css'
@@ -14,35 +14,35 @@ export default function Home () {
       <div className='welcome'>
         <div className='welcome-title'>
           <img src={logotext} alt='logo' />
-          <text>2020 LIVE</text>
+          <text>2021 LIVE</text>
         </div>
         <div className='welcome-info'>
           <div className='welcome-column-label'>
             <text>Check-in</text>
-            <text>Hacking Space</text>
-            <text>WIFI</text>
+            <text>Opening Ceremony</text>
+            <text>Closing Ceremony</text>
             <text>Devpost</text>
-            <text>Slack</text>
+            <text>Discord</text>
             <text>Virtual Hacker Info</text>
-            <text>Emergency</text>
-            <text>Non-Emergency</text>
+            <text>Schedule</text>
+            <text>Contact an Organizer</text>
             <text>MLH Code of Conduct</text>
           </div>
           <div className='welcome-column'>
             <text>
-                Trousdale Pkwy by TCC
+                #start-here channel on Discord
             </text>
             <text>
-                TCC Ballroom
+                March 6th, 11 am - 12:30 pm PT
             </text>
             <text>
-                USC Guest Wireless
+                March 7th, 3:30 pm - 5 pm PT
             </text>
             <a target='_blank' rel='noopener noreferrer' href="https://athenahacks2020.devpost.com/">athenahacks2020.devpost.com</a>
-            <a target='_blank' rel='noopener noreferrer' href='http://bit.ly/athenahacks2020slack'>bit.ly/athenahacks2020slack</a>
+            <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'>https://discord.gg/kXYN454G</a>
             <a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1syv8jyNdTYmUzuuIx7ZpiP1QL3sWLv21Nzsl2ydoisQ/view'>How-To</a>
-            <text>(213)-740-4321</text>
-            <text>(213)-740-6000</text>
+            <a target='_blank' rel='noopener noreferrer' href=''>Link to schedule</a>
+            <text>(571)-425-1850</text>
 
             <a target='_blank' rel='noopener noreferrer' href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>mlh-code-of-conduct.pdf</a>
 

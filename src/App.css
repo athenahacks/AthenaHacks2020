@@ -6,14 +6,15 @@
 }
 .App {
   text-align: center;
-  background-color: #2d2d4f;
+  /*background-color: #2d2d4f;*/
+  background-color: #DB72A6;
   /* height: 100vh; */
   width: 100vw;
 }
 
 .App-header {
   height: 8vh;
-  background-color: #f4dbd8;
+  background-color: #FFCCE9;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -23,15 +24,16 @@
   color: white;
 }
 .App-link {
-  color: #2d2d4f;
+  color: #6E3E94;
   text-decoration: none;
   margin: 0 20px 0px;
 }
 .App-link:hover {
-  color: #9480e5;
+  color: #A04A8A;
 }
 .selected {
-  color: #9480e5;
+  /*color: #9480e5;*/
+  color: #A04A8A;
   font-weight: 700;
 }
 .home {
@@ -60,7 +62,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  color: #2d2d4f;
+  color: #DB72A6;
   font-size: calc(6vmin);
 }
 .welcome-title img {
