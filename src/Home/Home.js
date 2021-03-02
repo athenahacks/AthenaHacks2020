@@ -42,7 +42,7 @@ export default function Home () {
             <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'>https://discord.gg/kXYN454G</a>
             <a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1syv8jyNdTYmUzuuIx7ZpiP1QL3sWLv21Nzsl2ydoisQ/view'>How-To</a>
             <a target='_blank' rel='noopener noreferrer' href=''>Link to schedule</a>
-            <text>(571)-425-1850</text>
+            <text>‪+1(657)229-4910</text>
 
             <a target='_blank' rel='noopener noreferrer' href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>mlh-code-of-conduct.pdf</a>
 
