@@ -1,5 +1,5 @@
-# AthenaHacks 2020 Live
-Live event website for AthenaHacks 2020. 
+# AthenaHacks 2021 Live
+Live event website for AthenaHacks 2021. 
 
 ## Setup:
 In the project directory, you can run:
