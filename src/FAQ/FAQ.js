@@ -12,7 +12,7 @@ export default function Map() {
         </div>
         <div className='question'>
           <div className='title'>What if I need to check in late?</div>
-          <div className='answer'>You can check in at any time in the #start-here channel in the <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'> Discord. </a></div>
+          <div className='answer'>You can check in at any time in the #start-here channel in the <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'> Discord. </a></div>
         </div>
         <div className='question'>
           <div className='title'>What time does hacking start? </div>
@@ -27,7 +27,7 @@ export default function Map() {
           <div className='answer'>Submit your project on our
           <a target='_blank' rel='noopener noreferrer' href='http://athenahacks2020.devpost.com'> Devpost. </a>
             <br />
-            If you have issues submitting, ask an organizer for help in the <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'> Discord. </a>
+            If you have issues submitting, ask an organizer for help in the <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'> Discord. </a>
           </div>
         </div>
         <div className='question'>
@@ -44,25 +44,25 @@ export default function Map() {
         <div className='question'>
           <div className='title'>What if one of the session links doesn't work? </div>
           <div className='answer'>
-          If you run into any problems, please message us on <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'> Discord</a> in the #ask-organizers channel or email us at athenahacks@gmail.com</div>
+          If you run into any problems, please message us on <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'> Discord</a> in the #ask-organizers channel or email us at athenahacks@gmail.com</div>
         </div>
 
         <div className='question'>
           <div className='title'>How do I find people to hack with?</div>
-          <div className='answer'>We will hold team formation activities on March 6th from 10 am - 11 am PT and after that, you can message in #team-formation <a target='_blank' rel='noopener noreferrer' href="https://discord.gg/kXYN454G">Discord</a> channel to look for teammates! </div>
+          <div className='answer'>We will hold team formation activities on March 6th from 10 am - 11 am PT and after that, you can message in #team-formation <a target='_blank' rel='noopener noreferrer' href="https://discord.link/athenahacks">Discord</a> channel to look for teammates! </div>
         </div>
         <div className='question'>
 
           <div className='title'>How do I find a mentor?</div>
-          <div className='answer'>Look for someone on the <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'> Discord </a> with the mentor role or post your questions in the #ask-mentors channel on Discord (include your team number to help mentors respond to you quickly).</div>
+          <div className='answer'>Look for someone on the <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'> Discord </a> with the mentor role or post your questions in the #ask-mentors channel on Discord (include your team number to help mentors respond to you quickly).</div>
         </div>
         <div className='question'>
           <div className='title'>What if I need help with something non-technical?</div>
-          <div className='answer'>Look for an organizer on the <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'> Discord </a> with the organizer role or post your questions in the #ask-organizers channel.</div>
+          <div className='answer'>Look for an organizer on the <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'> Discord </a> with the organizer role or post your questions in the #ask-organizers channel.</div>
         </div>
         <div className='question'>
           <div className='title'>What if I need to contact an organizer urgently?</div>
-          <div className='answer'>If you can't message an organizer on <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'> Discord </a> for any reason you can call or text 571-425-1850.</div>
+          <div className='answer'>If you can't message an organizer on <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'> Discord </a> for any reason you can call or text 571-425-1850.</div>
         </div>
         <div className='question'>
           <div className='title'>Any other questions? </div>

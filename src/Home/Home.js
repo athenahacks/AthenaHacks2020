@@ -38,9 +38,9 @@ export default function Home () {
             <text>
                 March 7th, 3:30 pm - 5 pm PT
             </text>
-            <a target='_blank' rel='noopener noreferrer' href="https://athenahacks2020.devpost.com/">athenahacks2020.devpost.com</a>
-            <a target='_blank' rel='noopener noreferrer' href='https://discord.gg/kXYN454G'>https://discord.gg/kXYN454G</a>
-            <a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1syv8jyNdTYmUzuuIx7ZpiP1QL3sWLv21Nzsl2ydoisQ/view'>How-To</a>
+            <a target='_blank' rel='noopener noreferrer' href="https://athenahacks-2021.devpost.com/">athenahacks-2021.devpost.com</a>
+            <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'>https://discord.link/athenahacks</a>
+            <a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1OBMkx7-yI-HjW7LrL0b4ZhruQ4Jz62D25zpZj1q_uYc/edit?usp=sharing'>How-To</a>
             <a target='_blank' rel='noopener noreferrer' href=''>Link to schedule</a>
             <text>(571)-425-1850</text>
 
