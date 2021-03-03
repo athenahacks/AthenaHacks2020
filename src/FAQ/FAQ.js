@@ -25,7 +25,7 @@ export default function Map() {
         <div className='question'>
           <div className='title'>How do I submit my project?</div>
           <div className='answer'>Submit your project on our
-          <a target='_blank' rel='noopener noreferrer' href='http://athenahacks2020.devpost.com'> Devpost. </a>
+          <a target='_blank' rel='noopener noreferrer' href='https://athenahacks-2021.devpost.com/'> Devpost. </a>
             <br />
             If you have issues submitting, ask an organizer for help in the <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'> Discord. </a>
           </div>

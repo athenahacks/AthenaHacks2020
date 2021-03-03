@@ -41,8 +41,8 @@ export default function Home () {
             <a target='_blank' rel='noopener noreferrer' href="https://athenahacks-2021.devpost.com/">athenahacks-2021.devpost.com</a>
             <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'>https://discord.link/athenahacks</a>
             <a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1OBMkx7-yI-HjW7LrL0b4ZhruQ4Jz62D25zpZj1q_uYc/edit?usp=sharing'>How-To</a>
-            <a target='_blank' rel='noopener noreferrer' href=''>Link to schedule</a>
-            <text>‪+1(657)229-4910</text>
+            <a href='http://live.athenahacks.com/schedule'>Link</a>
+            <text>‪+1 (657) 229-4910</text>
 
             <a target='_blank' rel='noopener noreferrer' href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>mlh-code-of-conduct.pdf</a>
 
