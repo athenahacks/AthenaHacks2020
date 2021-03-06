@@ -282,24 +282,24 @@ export default function Schedule () {
               Zoom link: <a href="https://usc.zoom.us/j/93946123855?pwd=WWJ2OW5LSzVRRXFwZ3ZMWHpIOHZvUT09">https://usc.zoom.us/j/93946123855?pwd=WWJ2OW5LSzVRRXFwZ3ZMWHpIOHZvUT09</a>
               <br/>
             </div>
-            <a href="#" onClick={() => showgcloud()}><div className="gcloud"></div></a>
+            <a href="#gcloud" name="gcloud" onClick={() => showgcloud()}><div className="gcloud"></div></a>
             <div className="gclouddesc" id="gcloud">
               After a brief introduction to Google Cloud, we’ll dive into three key products: App Engine, Machine Learning APIs, and Cloud Firestore. Each one will feature some cool demos and/or live coding.
               <br/><br/>
               Zoom link: <a href="https://usc.zoom.us/j/92934716598?pwd=V0p1NklGZ2M5VHNJR0tJazJWREsvUT09">https://usc.zoom.us/j/92934716598?pwd=V0p1NklGZ2M5VHNJR0tJazJWREsvUT09</a>
               <br/>
             </div>
-            <a href="#" onClick={() => showwerewolf()}><div className="werewolf"></div></a>
+            <a href="#werewolf" name="werewolf" onClick={() => showwerewolf()}><div className="werewolf"></div></a>
             <div className="werewolfdesc" id="werewolf">
               Zoom link: <a href="https://usc.zoom.us/j/98408739893?pwd=WTd2MTlTQWVITWhDN0VLZDYyL2dCQT09">https://usc.zoom.us/j/98408739893?pwd=WTd2MTlTQWVITWhDN0VLZDYyL2dCQT09</a>
               <br/>
             </div>
-            <a href="#" onClick={() => showcapturetheflag()}><div className="capturetheflag"></div></a>
+            <a href="#capturetheflag" name="capturetheflag" onClick={() => showcapturetheflag()}><div className="capturetheflag"></div></a>
             <div className="capturetheflagdesc" id="capturetheflag">
               Zoom link: <a href="https://usc.zoom.us/j/98408739893?pwd=WTd2MTlTQWVITWhDN0VLZDYyL2dCQT09">https://usc.zoom.us/j/98408739893?pwd=WTd2MTlTQWVITWhDN0VLZDYyL2dCQT09</a>
               <br/>
             </div>
-            <a href="#" onClick={() => showbobross()}><div className="bobross"></div></a>
+            <a href="#bobross" name="bobross" onClick={() => showbobross()}><div className="bobross"></div></a>
             <div className="bobrossdesc" id="bobross">
               Zoom link: <a href="https://usc.zoom.us/j/94231908623?pwd=a0JVVlZ4R1lacFdSWWpTdmk4OG9HQT09">https://usc.zoom.us/j/94231908623?pwd=a0JVVlZ4R1lacFdSWWpTdmk4OG9HQT09</a>
               <br/>
@@ -310,25 +310,25 @@ export default function Schedule () {
           <h1>Sunday (PST)</h1>
           <div className="container">
             <img alt="schedule2" src={ScheduleImg2} />
-            <a href="#" onClick={() => showyoga()}><div className="yoga"></div></a>
+            <a href="#yoga" name="yoga" onClick={() => showyoga()}><div className="yoga"></div></a>
             <div className="yogadesc" id="yoga">
               Zoom link: <a href="https://usc.zoom.us/j/92103576404?pwd=WGo0R3RPb3FlRmhudmdscWdUK2c5dz09">https://usc.zoom.us/j/92103576404?pwd=WGo0R3RPb3FlRmhudmdscWdUK2c5dz09</a>
               <br/>
             </div>
             <a href="#"><div className="hackingend"></div></a>
-            <a href="#" onClick={() => showmsftpitch()}><div className="storypitchmsft"></div></a>
+            <a href="#storypitchmsft" name="storypitchmsft" onClick={() => showmsftpitch()}><div className="storypitchmsft"></div></a>
             <div className="storypitchmsftdesc" id="storypitchmsft">
               Learn how to tell a compelling story of your product when you pitch. Make your pitch effective by making it relatable, personal and real.
               <br/><br/>
               Zoom link: <a href="https://usc.zoom.us/j/94087667047?pwd=WFdsNlRacXdXeE82dG5mVFhPZXRzUT09">https://usc.zoom.us/j/94087667047?pwd=WFdsNlRacXdXeE82dG5mVFhPZXRzUT09</a>
               <br/>
             </div>
-            <a href="#" onClick={() => showexpoandjudging()}><div className="expoandjudging"></div></a>
+            <a href="#expoandjudging" name="expoandjudging" onClick={() => showexpoandjudging()}><div className="expoandjudging"></div></a>
             <div className="expoandjudgingdesc" id="expoandjudging">
               Project Expo will be a mix of live and devpost only submissions. Be sure to fill out the project submission form to choose your presentation type here: <a href="https://airtable.com/shrtJF8Fflg9cRMXz">https://airtable.com/shrtJF8Fflg9cRMXz</a>. If you have decided to present your project live, please describe how the judges can find you during Project Expo. We recommend using your team voice channel in Discord but you may choose to provide a Zoom or Google Meet link instead.
               <br/>
             </div>
-            <a href="#" onClick={() => showclosing()}><div className="closing"></div></a>
+            <a href="#closing" name="closing" onClick={() => showclosing()}><div className="closing"></div></a>
             <div className="closingdesc" id="closing">
               Stream: <a href="https://www.youtube.com/watch?v=wB513SbGVk0">https://www.youtube.com/watch?v=wB513SbGVk0</a>
               <br/>
