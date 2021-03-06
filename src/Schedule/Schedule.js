@@ -14,6 +14,7 @@ export default function Schedule () {
   var replit = 1;
   var gcloud = 1;
   var storypitchmsft = 1;
+  var teamformation = 1;
 
   function initfunc() {
     document.getElementById("zynga").style.visibility = "hidden";
@@ -24,6 +25,7 @@ export default function Schedule () {
     document.getElementById("replit").style.visibility = "hidden";
     document.getElementById("gcloud").style.visibility = "hidden";
     document.getElementById("storypitchmsft").style.visibility = "hidden";
+    document.getElementById("teamformation").style.visibility = "hidden";
   }
 
   window.onload = initfunc;
@@ -108,6 +110,16 @@ export default function Schedule () {
       storypitchmsft = 0;
     }
   }
+  function showteamformation() {
+    if(teamformation === 0){
+      document.getElementById("teamformation").style.visibility = "hidden";
+      teamformation = 1;
+    }
+    else{
+      document.getElementById("teamformation").style.visibility = "visible";
+      teamformation = 0;
+    }
+  }
   return (
     <Container fluid="true" className='schedule'>
       <Row>
@@ -115,7 +127,7 @@ export default function Schedule () {
           <h1>Saturday</h1>
           <div className="container">
             <img alt="schedule1" src={ScheduleImg} />
-            <a href="#"><div className="teamformation"></div></a>
+            <a href="#" onClick={() => showteamformation()}><div className="teamformation"></div></a>
             <div className="teamformationdesc" id="teamformation">
               Zoom link: <a href="https://usc.zoom.us/j/99617456324?pwd=ZmZjRG15ZS9iOVR2ZlU5Q0VmWFBWZz09">https://usc.zoom.us/j/99617456324?pwd=ZmZjRG15ZS9iOVR2ZlU5Q0VmWFBWZz09</a>
               <br/>

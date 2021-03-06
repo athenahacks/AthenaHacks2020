@@ -43,6 +43,18 @@
 	background-color: rgba(0, 0, 0, 0);
 }
 
+.teamformationdesc {
+	position: absolute;
+	top: 8%;
+	left: 55%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
 .openingceremony {
 	position: absolute;
 	left: 22.5%;
