@@ -64,6 +64,18 @@
 	background-color: rgba(0, 0, 0, 0);
 }
 
+.openingceremonydesc {
+	position: absolute;
+	top: 14%;
+	left: 55%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
 .networkingsession {
 	position: absolute;
 	left: 22.5%;
@@ -71,6 +83,18 @@
 	width: 33.5%;
 	height: 6%;
 	background-color: rgba(0, 0, 0, 0);
+}
+
+.networkingsessiondesc {
+	position: absolute;
+	top: 23%;
+	left: 55%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
 }
 
 .zyngagamedev {
@@ -229,6 +253,18 @@
 	background-color: rgba(0, 0, 0, 0);
 }
 
+.werewolfdesc {
+	position: absolute;
+	top: 56%;
+	left: 55%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
 .capturetheflag {
 	position: absolute;
 	left: 22.5%;
@@ -236,6 +272,18 @@
 	width: 33.5%;
 	height: 3%;
 	background-color: rgba(0, 0, 0, 0);
+}
+
+.capturetheflagdesc {
+	position: absolute;
+	top: 59%;
+	left: 55%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
 }
 
 .bobross {
@@ -247,6 +295,18 @@
 	background-color: rgba(0, 0, 0, 0);
 }
 
+.bobrossdesc {
+	position: absolute;
+	top: 68%;
+	left: 55%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
 .yoga {
 	position: absolute;
 	left: 22.5%;
@@ -254,6 +314,18 @@
 	width: 33.5%;
 	height: 6%;
 	background-color: rgba(0, 0, 0, 0);
+}
+
+.yogadesc {
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
 }
 
 .hackingend {
@@ -294,6 +366,17 @@
 	background-color: rgba(0, 0, 0, 0);
 }
 
+.expoandjudgingdesc {
+	position: absolute;
+	top: 74%;
+	left: 55%;
+	width: 40%;
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
 .closing {
 	position: absolute;
 	left: 22.5%;
@@ -301,6 +384,17 @@
 	width: 33.5%;
 	height: 9%;
 	background-color: rgba(0, 0, 0, 0);
+}
+
+.closingdesc {
+	position: absolute;
+	top: 89%;
+	left: 55%;
+	width: 40%;
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
 }
 
 @media (max-width: 1025px) {

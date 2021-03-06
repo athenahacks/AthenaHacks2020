@@ -15,6 +15,14 @@ export default function Schedule () {
   var gcloud = 1;
   var storypitchmsft = 1;
   var teamformation = 1;
+  var openingceremony = 1;
+  var networkingsession = 1;
+  var werewolf = 1;
+  var capturetheflag = 1;
+  var bobross = 1;
+  var expoandjudging = 1;
+  var yoga = 1;
+  var closing = 1;
 
   function initfunc() {
     document.getElementById("zynga").style.visibility = "hidden";
@@ -26,6 +34,14 @@ export default function Schedule () {
     document.getElementById("gcloud").style.visibility = "hidden";
     document.getElementById("storypitchmsft").style.visibility = "hidden";
     document.getElementById("teamformation").style.visibility = "hidden";
+    document.getElementById("openingceremony").style.visibility = "hidden";
+    document.getElementById("networkingsession").style.visibility = "hidden";
+    document.getElementById("werewolf").style.visibility = "hidden";
+    document.getElementById("capturetheflag").style.visibility = "hidden";
+    document.getElementById("bobross").style.visibility = "hidden";
+    document.getElementById("expoandjudging").style.visibility = "hidden";
+    document.getElementById("yoga").style.visibility = "hidden";
+    document.getElementById("closing").style.visibility = "hidden";
   }
 
   window.onload = initfunc;
@@ -120,6 +136,86 @@ export default function Schedule () {
       teamformation = 0;
     }
   }
+  function showopeningceremony() {
+    if(openingceremony === 0){
+      document.getElementById("openingceremony").style.visibility = "hidden";
+      openingceremony = 1;
+    }
+    else{
+      document.getElementById("openingceremony").style.visibility = "visible";
+      openingceremony = 0;
+    }
+  }
+  function shownetworkingsession() {
+    if(networkingsession === 0){
+      document.getElementById("networkingsession").style.visibility = "hidden";
+      networkingsession = 1;
+    }
+    else{
+      document.getElementById("networkingsession").style.visibility = "visible";
+      networkingsession = 0;
+    }
+  }
+  function showwerewolf() {
+    if(werewolf === 0){
+      document.getElementById("werewolf").style.visibility = "hidden";
+      werewolf = 1;
+    }
+    else{
+      document.getElementById("werewolf").style.visibility = "visible";
+      werewolf = 0;
+    }
+  }
+  function showcapturetheflag() {
+    if(capturetheflag === 0){
+      document.getElementById("capturetheflag").style.visibility = "hidden";
+      capturetheflag = 1;
+    }
+    else{
+      document.getElementById("capturetheflag").style.visibility = "visible";
+      capturetheflag = 0;
+    }
+  }
+  function showbobross() {
+    if(bobross === 0){
+      document.getElementById("bobross").style.visibility = "hidden";
+      bobross = 1;
+    }
+    else{
+      document.getElementById("bobross").style.visibility = "visible";
+      bobross = 0;
+    }
+  }
+  function showexpoandjudging() {
+    if(expoandjudging === 0){
+      document.getElementById("expoandjudging").style.visibility = "hidden";
+      expoandjudging = 1;
+    }
+    else{
+      document.getElementById("expoandjudging").style.visibility = "visible";
+      expoandjudging = 0;
+    }
+  }
+  function showyoga() {
+    if(yoga === 0){
+      document.getElementById("yoga").style.visibility = "hidden";
+      yoga = 1;
+    }
+    else{
+      document.getElementById("yoga").style.visibility = "visible";
+      yoga = 0;
+    }
+  }
+  function showclosing() {
+    if(closing === 0){
+      document.getElementById("closing").style.visibility = "hidden";
+      closing = 1;
+    }
+    else{
+      document.getElementById("closing").style.visibility = "visible";
+      closing = 0;
+    }
+  }
   return (
     <Container fluid="true" className='schedule'>
       <Row>
@@ -129,11 +225,19 @@ export default function Schedule () {
             <img alt="schedule1" src={ScheduleImg} />
             <a href="#" onClick={() => showteamformation()}><div className="teamformation"></div></a>
             <div className="teamformationdesc" id="teamformation">
-              Zoom link: <a href="https://usc.zoom.us/j/99617456324?pwd=ZmZjRG15ZS9iOVR2ZlU5Q0VmWFBWZz09">https://usc.zoom.us/j/99617456324?pwd=ZmZjRG15ZS9iOVR2ZlU5Q0VmWFBWZz09</a>
+              Zoom link: <a href="https://usc.zoom.us/j/92409702206">https://usc.zoom.us/j/92409702206</a>
               <br/>
             </div>
-            <a href="#"><div className="openingceremony"></div></a>
-            <a href="#"><div className="networkingsession"></div></a>
+            <a href="#" onClick={() => showopeningceremony()}><div className="openingceremony"></div></a>
+            <div className="openingceremonydesc" id="openingceremony">
+              Stream: <a href="https://www.youtube.com/watch?v=dhK4vaRXnw0">https://www.youtube.com/watch?v=dhK4vaRXnw0</a>
+              <br/>
+            </div>
+            <a href="#" onClick={() => shownetworkingsession()}><div className="networkingsession"></div></a>
+            <div className="networkingsessiondesc" id="networkingsession">
+              Go to company voice and chat channels on Discord!
+              <br/>
+            </div>
             <a href="#" onClick={() => showzynga()}><div className="zyngagamedev"></div></a>
             <div className="zyngagamedevdesc" id="zynga">
               Come and join Zynga for a comprehensive and interactive workshop on Mobile Game Development! We will be talking about everything that goes into creating a popular and long lasting Mobile Game, the teams and roles involved, and the challenges that come with designing in the mobile gaming space.
@@ -185,16 +289,32 @@ export default function Schedule () {
               Zoom link: <a href="https://usc.zoom.us/j/92934716598?pwd=V0p1NklGZ2M5VHNJR0tJazJWREsvUT09">https://usc.zoom.us/j/92934716598?pwd=V0p1NklGZ2M5VHNJR0tJazJWREsvUT09</a>
               <br/>
             </div>
-            <a href="#"><div className="werewolf"></div></a>
-            <a href="#"><div className="capturetheflag"></div></a>
-            <a href="#"><div className="bobross"></div></a>
+            <a href="#" onClick={() => showwerewolf()}><div className="werewolf"></div></a>
+            <div className="werewolfdesc" id="werewolf">
+              Zoom link: <a href="https://usc.zoom.us/j/98408739893?pwd=WTd2MTlTQWVITWhDN0VLZDYyL2dCQT09">https://usc.zoom.us/j/98408739893?pwd=WTd2MTlTQWVITWhDN0VLZDYyL2dCQT09</a>
+              <br/>
+            </div>
+            <a href="#" onClick={() => showcapturetheflag()}><div className="capturetheflag"></div></a>
+            <div className="capturetheflagdesc" id="capturetheflag">
+              Zoom link: <a href="https://usc.zoom.us/j/98408739893?pwd=WTd2MTlTQWVITWhDN0VLZDYyL2dCQT09">https://usc.zoom.us/j/98408739893?pwd=WTd2MTlTQWVITWhDN0VLZDYyL2dCQT09</a>
+              <br/>
+            </div>
+            <a href="#" onClick={() => showbobross()}><div className="bobross"></div></a>
+            <div className="bobrossdesc" id="bobross">
+              Zoom link: <a href="https://usc.zoom.us/j/94231908623?pwd=a0JVVlZ4R1lacFdSWWpTdmk4OG9HQT09">https://usc.zoom.us/j/94231908623?pwd=a0JVVlZ4R1lacFdSWWpTdmk4OG9HQT09</a>
+              <br/>
+            </div>
           </div>
         </Col>
         <Col lg={6} md={6} sm={12} xs={12} id='sunday'>
           <h1>Sunday</h1>
           <div className="container">
             <img alt="schedule2" src={ScheduleImg2} />
-            <a href="#"><div className="yoga"></div></a>
+            <a href="#" onClick={() => showyoga()}><div className="yoga"></div></a>
+            <div className="yogadesc" id="yoga">
+              Zoom link: <a href="https://usc.zoom.us/j/92103576404?pwd=WGo0R3RPb3FlRmhudmdscWdUK2c5dz09">https://usc.zoom.us/j/92103576404?pwd=WGo0R3RPb3FlRmhudmdscWdUK2c5dz09</a>
+              <br/>
+            </div>
             <a href="#"><div className="hackingend"></div></a>
             <a href="#" onClick={() => showmsftpitch()}><div className="storypitchmsft"></div></a>
             <div className="storypitchmsftdesc" id="storypitchmsft">
@@ -203,8 +323,16 @@ export default function Schedule () {
               Zoom link: <a href="https://usc.zoom.us/j/94087667047?pwd=WFdsNlRacXdXeE82dG5mVFhPZXRzUT09">https://usc.zoom.us/j/94087667047?pwd=WFdsNlRacXdXeE82dG5mVFhPZXRzUT09</a>
               <br/>
             </div>
-            <a href="#"><div className="expoandjudging"></div></a>
-            <a href="#"><div className="closing"></div></a>
+            <a href="#" onClick={() => showexpoandjudging()}><div className="expoandjudging"></div></a>
+            <div className="expoandjudgingdesc" id="expoandjudging">
+              Project Expo will be a mix of live and devpost only submissions. Be sure to fill out the project submission form to choose your presentation type here: <a href="https://airtable.com/shrtJF8Fflg9cRMXz">https://airtable.com/shrtJF8Fflg9cRMXz</a>. If you have decided to present your project live, please describe how the judges can find you during Project Expo. We recommend using your team voice channel in Discord but you may choose to provide a Zoom or Google Meet link instead.
+              <br/>
+            </div>
+            <a href="#" onClick={() => showclosing()}><div className="closing"></div></a>
+            <div className="closingdesc" id="closing">
+              Stream: <a href="https://www.youtube.com/watch?v=wB513SbGVk0">https://www.youtube.com/watch?v=wB513SbGVk0</a>
+              <br/>
+            </div>
           </div>
         </Col>
       </Row>
