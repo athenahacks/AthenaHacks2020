@@ -220,7 +220,7 @@ export default function Schedule () {
     <Container fluid="true" className='schedule'>
       <Row>
         <Col lg={6} md={6} sm={12} xs={12} id='saturday'>
-          <h1>Saturday</h1>
+          <h1>Saturday (PST)</h1>
           <div className="container">
             <img alt="schedule1" src={ScheduleImg} />
             <a href="#" onClick={() => showteamformation()}><div className="teamformation"></div></a>
@@ -307,7 +307,7 @@ export default function Schedule () {
           </div>
         </Col>
         <Col lg={6} md={6} sm={12} xs={12} id='sunday'>
-          <h1>Sunday</h1>
+          <h1>Sunday (PST)</h1>
           <div className="container">
             <img alt="schedule2" src={ScheduleImg2} />
             <a href="#" onClick={() => showyoga()}><div className="yoga"></div></a>
