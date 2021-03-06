@@ -19,14 +19,276 @@
     padding-bottom: 5%;
 }
 .schedule img {
-    display: flex;
-    width: 45vw;
+    /*display: flex;*/
+    /*width: 45vw;*/
+    width: 100%;
 }
 .schedule h1 {
     font-size: 2em;
     margin-top: 15px;
     margin-bottom: 10px; 
     padding-left: 15px;
+}
+
+.container{
+	position: relative;
+}
+
+.teamformation {
+	position: absolute;
+	left: 22.5%;
+	top: 8.5%;
+	width: 33.5%;
+	height: 6%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.openingceremony {
+	position: absolute;
+	left: 22.5%;
+	top: 14.5%;
+	width: 33.5%;
+	height: 9%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.networkingsession {
+	position: absolute;
+	left: 22.5%;
+	top: 23.5%;
+	width: 33.5%;
+	height: 6%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.zyngagamedev {
+	position: absolute;
+	left: 22.5%;
+	top: 29.5%;
+	width: 33.5%;
+	height: 6%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.zyngagamedevdesc {
+	position: absolute;
+	top: 20%;
+	left: 55%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
+.bloombergdecode {
+	position: absolute;
+	left: 55%;
+	top: 29.5%;
+	width: 33.5%;
+	height: 6%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.bloombergdecodedesc {
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
+.introvertsmsft {
+	position: absolute;
+	left: 22.5%;
+	top: 35.5%;
+	width: 33.5%;
+	height: 3%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.showintrovertmsftdesc {
+	position: absolute;
+	top: 34%;
+	left: 55%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
+.reactandrails {
+	position: absolute;
+	left: 55%;
+	top: 35.5%;
+	width: 33.5%;
+	height: 6%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.reactandrailsdesc {
+	position: absolute;
+	top: 34%;
+	left: 15%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
+.echoar {
+	position: absolute;
+	left: 22.5%;
+	top: 41.5%;
+	width: 33.5%;
+	height: 6%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.echoardesc {
+	position: absolute;
+	top: 40%;
+	left: 55%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
+.replit {
+	position: absolute;
+	left: 55%;
+	top: 41.5%;
+	width: 33.5%;
+	height: 6%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.replitdesc {
+	position: absolute;
+	top: 40%;
+	left: 15%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
+.gcloud {
+	position: absolute;
+	left: 22.5%;
+	top: 47.5%;
+	width: 33.5%;
+	height: 6%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.gclouddesc {
+	position: absolute;
+	top: 47%;
+	left: 55%;
+	width: 40%;
+	/*height: 35%;*/
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
+.werewolf {
+	position: absolute;
+	left: 22.5%;
+	top: 56.5%;
+	width: 33.5%;
+	height: 3%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.capturetheflag {
+	position: absolute;
+	left: 22.5%;
+	top: 59.5%;
+	width: 33.5%;
+	height: 3%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.bobross {
+	position: absolute;
+	left: 22.5%;
+	top: 68.5%;
+	width: 33.5%;
+	height: 6%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.yoga {
+	position: absolute;
+	left: 22.5%;
+	top: 50.5%;
+	width: 33.5%;
+	height: 6%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.hackingend {
+	position: absolute;
+	left: 22.5%;
+	top: 67.5%;
+	width: 33.5%;
+	height: 4%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.storypitchmsft {
+	position: absolute;
+	left: 55%;
+	top: 67.5%;
+	width: 33.5%;
+	height: 4%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.storypitchmsftdesc {
+	position: absolute;
+	top: 67%;
+	left: 15%;
+	width: 40%;
+	background-color: #FFCCE9;
+	color: black;
+	font-size: 12px;
+	padding: 1%;
+}
+
+.expoandjudging {
+	position: absolute;
+	left: 22.5%;
+	top: 74%;
+	width: 33.5%;
+	height: 15.5%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.closing {
+	position: absolute;
+	left: 22.5%;
+	top: 89%;
+	width: 33.5%;
+	height: 9%;
+	background-color: rgba(0, 0, 0, 0);
 }
 
 @media (max-width: 1025px) {
