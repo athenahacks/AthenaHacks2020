@@ -14,7 +14,7 @@ import {
 
 export default function App () {
   return (
-    <Router basename='/'>
+    <Router forceRefresh basename='/'>
       <div className='App-header'>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <NavLink

@@ -15,8 +15,7 @@ export default function Schedule () {
   var gcloud = 1;
   var storypitchmsft = 1;
 
-  function initfunc() { 
-    // alert("testing testing");
+  function initfunc() {
     document.getElementById("zynga").style.visibility = "hidden";
     document.getElementById("bloomberg").style.visibility = "hidden";
     document.getElementById("introvertmsft").style.visibility = "hidden";
@@ -30,7 +29,7 @@ export default function Schedule () {
   window.onload = initfunc;
 
   function showzynga() {
-    if(zynga == 0){
+    if(zynga === 0){
       document.getElementById("zynga").style.visibility = "hidden";
       zynga = 1;
     }
@@ -40,7 +39,7 @@ export default function Schedule () {
     }
   }
   function showbloomberg() {
-    if(bloomberg == 0){
+    if(bloomberg === 0){
       document.getElementById("bloomberg").style.visibility = "hidden";
       bloomberg = 1;
     }
@@ -50,7 +49,7 @@ export default function Schedule () {
     }
   }
   function showintrovertmsft() {
-    if(introvertsmsft == 0){
+    if(introvertsmsft === 0){
       document.getElementById("introvertmsft").style.visibility = "hidden";
       introvertsmsft = 1;
     }
@@ -60,7 +59,7 @@ export default function Schedule () {
     }
   }
   function showreactandrails() {
-    if(reactandrails == 0){
+    if(reactandrails === 0){
       document.getElementById("reactandrails").style.visibility = "hidden";
       reactandrails = 1;
     }
@@ -70,7 +69,7 @@ export default function Schedule () {
     }
   }
   function showechoar() {
-    if(echoar == 0){
+    if(echoar === 0){
       document.getElementById("echoar").style.visibility = "hidden";
       echoar = 1;
     }
@@ -80,7 +79,7 @@ export default function Schedule () {
     }
   }
   function showreplit() {
-    if(replit == 0){
+    if(replit === 0){
       document.getElementById("replit").style.visibility = "hidden";
       replit = 1;
     }
@@ -90,7 +89,7 @@ export default function Schedule () {
     }
   }
   function showgcloud() {
-    if(gcloud == 0){
+    if(gcloud === 0){
       document.getElementById("gcloud").style.visibility = "hidden";
       gcloud = 1;
     }
@@ -100,7 +99,7 @@ export default function Schedule () {
     }
   }
   function showmsftpitch() {
-    if(storypitchmsft == 0){
+    if(storypitchmsft === 0){
       document.getElementById("storypitchmsft").style.visibility = "hidden";
       storypitchmsft = 1;
     }
@@ -117,6 +116,10 @@ export default function Schedule () {
           <div className="container">
             <img alt="schedule1" src={ScheduleImg} />
             <a href="#"><div className="teamformation"></div></a>
+            <div className="teamformationdesc" id="teamformation">
+              Zoom link: <a href="https://usc.zoom.us/j/99617456324?pwd=ZmZjRG15ZS9iOVR2ZlU5Q0VmWFBWZz09">https://usc.zoom.us/j/99617456324?pwd=ZmZjRG15ZS9iOVR2ZlU5Q0VmWFBWZz09</a>
+              <br/>
+            </div>
             <a href="#"><div className="openingceremony"></div></a>
             <a href="#"><div className="networkingsession"></div></a>
             <a href="#" onClick={() => showzynga()}><div className="zyngagamedev"></div></a>
