@@ -2,7 +2,6 @@ import React from 'react'
 import ScheduleImg from '../assets/sat_sched.jpg'
 import ScheduleImg2 from '../assets/sun_sched.jpg'
 import {Container, Row, Col} from "react-bootstrap"
-import ImageMap from "image-map";
 
 import './styles.css'
 
