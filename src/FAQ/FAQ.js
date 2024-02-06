@@ -2,7 +2,7 @@ import React from 'react'
 
 import './styles.css'
 
-export default function Map() {
+export default function Map () {
   return (
     <div id='faq'>
       <div className='questions-col'>
@@ -25,7 +25,7 @@ export default function Map() {
         <div className='question'>
           <div className='title'>How do I submit my project?</div>
           <div className='answer'>Submit your project on our
-          <a target='_blank' rel='noopener noreferrer' href='https://athenahacks-2021.devpost.com/'> Devpost. </a>
+            <a target='_blank' rel='noopener noreferrer' href='https://athenahacks-2021.devpost.com/'> Devpost. </a>
             <br />
             If you have issues submitting, ask an organizer for help in the <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'> Discord. </a>
           </div>
@@ -44,12 +44,13 @@ export default function Map() {
         <div className='question'>
           <div className='title'>What if one of the session links doesn't work? </div>
           <div className='answer'>
-          If you run into any problems, please message us on <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'> Discord</a> in the #ask-organizers channel or email us at athenahacks@gmail.com</div>
+            If you run into any problems, please message us on <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'> Discord</a> in the #ask-organizers channel or email us at athenahacks@gmail.com
+          </div>
         </div>
 
         <div className='question'>
           <div className='title'>How do I find people to hack with?</div>
-          <div className='answer'>We will hold team formation activities on March 6th from 10 am - 11 am PT and after that, you can message in #team-formation <a target='_blank' rel='noopener noreferrer' href="https://discord.link/athenahacks">Discord</a> channel to look for teammates! </div>
+          <div className='answer'>We will hold team formation activities on March 6th from 10 am - 11 am PT and after that, you can message in #team-formation <a target='_blank' rel='noopener noreferrer' href='https://discord.link/athenahacks'>Discord</a> channel to look for teammates! </div>
         </div>
         <div className='question'>
 

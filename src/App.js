@@ -2,7 +2,6 @@ import React from 'react'
 import './App.css'
 import Home from './Home/Home'
 import Schedule from './Schedule/Schedule'
-import Map from './Map/Map'
 import FAQ from './FAQ/FAQ'
 
 import {
@@ -38,7 +37,7 @@ export default function App () {
         >
           FAQ
         </NavLink>
-        
+
       </div>
       <Switch>
         <Route exact path='/'>
@@ -48,6 +47,7 @@ export default function App () {
           <Schedule />
         </Route>
         <Route path='/faq'>
+          {/* eslint-disable-next-line react/jsx-pascal-case */}
           <FAQ />
         </Route>
       </Switch>
