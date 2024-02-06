@@ -13,7 +13,7 @@ import {
 
 export default function App () {
   return (
-    <Router forceRefresh basename='/'>
+    <Router forceRefresh basename='/' path='/'>
       <div className='App-header'>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <NavLink
