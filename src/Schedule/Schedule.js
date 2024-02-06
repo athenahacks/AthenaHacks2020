@@ -44,9 +44,10 @@ export default function Schedule () {
     document.getElementById('closing').style.visibility = 'hidden'
   }
 
-  window.onload = initfunc
+  window.onload = initfunc()
 
-  function showzynga () {
+  function showzynga (e) {
+    e.preventDefault()
     if (zynga === 0) {
       document.getElementById('zynga').style.visibility = 'hidden'
       zynga = 1
@@ -55,7 +56,8 @@ export default function Schedule () {
       zynga = 0
     }
   }
-  function showbloomberg () {
+  function showbloomberg (e) {
+    e.preventDefault()
     if (bloomberg === 0) {
       document.getElementById('bloomberg').style.visibility = 'hidden'
       bloomberg = 1
@@ -64,7 +66,8 @@ export default function Schedule () {
       bloomberg = 0
     }
   }
-  function showintrovertmsft () {
+  function showintrovertmsft (e) {
+    e.preventDefault()
     if (introvertsmsft === 0) {
       document.getElementById('introvertmsft').style.visibility = 'hidden'
       introvertsmsft = 1
@@ -73,7 +76,8 @@ export default function Schedule () {
       introvertsmsft = 0
     }
   }
-  function showreactandrails () {
+  function showreactandrails (e) {
+    e.preventDefault()
     if (reactandrails === 0) {
       document.getElementById('reactandrails').style.visibility = 'hidden'
       reactandrails = 1
@@ -82,7 +86,8 @@ export default function Schedule () {
       reactandrails = 0
     }
   }
-  function showechoar () {
+  function showechoar (e) {
+    e.preventDefault()
     if (echoar === 0) {
       document.getElementById('echoar').style.visibility = 'hidden'
       echoar = 1
@@ -91,7 +96,8 @@ export default function Schedule () {
       echoar = 0
     }
   }
-  function showreplit () {
+  function showreplit (e) {
+    e.preventDefault()
     if (replit === 0) {
       document.getElementById('replit').style.visibility = 'hidden'
       replit = 1
@@ -100,7 +106,8 @@ export default function Schedule () {
       replit = 0
     }
   }
-  function showgcloud () {
+  function showgcloud (e) {
+    e.preventDefault()
     if (gcloud === 0) {
       document.getElementById('gcloud').style.visibility = 'hidden'
       gcloud = 1
@@ -109,7 +116,8 @@ export default function Schedule () {
       gcloud = 0
     }
   }
-  function showmsftpitch () {
+  function showmsftpitch (e) {
+    e.preventDefault()
     if (storypitchmsft === 0) {
       document.getElementById('storypitchmsft').style.visibility = 'hidden'
       storypitchmsft = 1
@@ -118,7 +126,8 @@ export default function Schedule () {
       storypitchmsft = 0
     }
   }
-  function showteamformation () {
+  function showteamformation (e) {
+    e.preventDefault()
     if (teamformation === 0) {
       document.getElementById('teamformation').style.visibility = 'hidden'
       teamformation = 1
@@ -127,7 +136,8 @@ export default function Schedule () {
       teamformation = 0
     }
   }
-  function showopeningceremony () {
+  function showopeningceremony (e) {
+    e.preventDefault()
     if (openingceremony === 0) {
       document.getElementById('openingceremony').style.visibility = 'hidden'
       openingceremony = 1
@@ -136,7 +146,8 @@ export default function Schedule () {
       openingceremony = 0
     }
   }
-  function shownetworkingsession () {
+  function shownetworkingsession (e) {
+    e.preventDefault()
     if (networkingsession === 0) {
       document.getElementById('networkingsession').style.visibility = 'hidden'
       networkingsession = 1
@@ -145,7 +156,8 @@ export default function Schedule () {
       networkingsession = 0
     }
   }
-  function showwerewolf () {
+  function showwerewolf (e) {
+    e.preventDefault()
     if (werewolf === 0) {
       document.getElementById('werewolf').style.visibility = 'hidden'
       werewolf = 1
@@ -154,7 +166,8 @@ export default function Schedule () {
       werewolf = 0
     }
   }
-  function showcapturetheflag () {
+  function showcapturetheflag (e) {
+    e.preventDefault()
     if (capturetheflag === 0) {
       document.getElementById('capturetheflag').style.visibility = 'hidden'
       capturetheflag = 1
@@ -163,7 +176,8 @@ export default function Schedule () {
       capturetheflag = 0
     }
   }
-  function showbobross () {
+  function showbobross (e) {
+    e.preventDefault()
     if (bobross === 0) {
       document.getElementById('bobross').style.visibility = 'hidden'
       bobross = 1
@@ -172,7 +186,8 @@ export default function Schedule () {
       bobross = 0
     }
   }
-  function showexpoandjudging () {
+  function showexpoandjudging (e) {
+    e.preventDefault()
     if (expoandjudging === 0) {
       document.getElementById('expoandjudging').style.visibility = 'hidden'
       expoandjudging = 1
@@ -181,7 +196,8 @@ export default function Schedule () {
       expoandjudging = 0
     }
   }
-  function showyoga () {
+  function showyoga (e) {
+    e.preventDefault()
     if (yoga === 0) {
       document.getElementById('yoga').style.visibility = 'hidden'
       yoga = 1
@@ -190,7 +206,8 @@ export default function Schedule () {
       yoga = 0
     }
   }
-  function showclosing () {
+  function showclosing (e) {
+    e.preventDefault()
     if (closing === 0) {
       document.getElementById('closing').style.visibility = 'hidden'
       closing = 1
@@ -206,22 +223,22 @@ export default function Schedule () {
           <h1>Saturday (PST)</h1>
           <div className='container'>
             <img alt='schedule1' src={ScheduleImg} />
-            <a href='#' onClick={() => showteamformation()}><div className='teamformation' /></a>
+            <a href='#' onClick={(e) => showteamformation(e)}><div className='teamformation' /></a>
             <div className='teamformationdesc' id='teamformation'>
               Zoom link: <a href='https://usc.zoom.us/j/92409702206'>https://usc.zoom.us/j/92409702206</a>
               <br />
             </div>
-            <a href='#' onClick={() => showopeningceremony()}><div className='openingceremony' /></a>
+            <a href='#' onClick={(e) => showopeningceremony(e)}><div className='openingceremony' /></a>
             <div className='openingceremonydesc' id='openingceremony'>
               Stream: <a href='https://www.youtube.com/watch?v=dhK4vaRXnw0'>https://www.youtube.com/watch?v=dhK4vaRXnw0</a>
               <br />
             </div>
-            <a href='#' onClick={() => shownetworkingsession()}><div className='networkingsession' /></a>
+            <a href='#' onClick={(e) => shownetworkingsession(e)}><div className='networkingsession' /></a>
             <div className='networkingsessiondesc' id='networkingsession'>
               Go to company voice and chat channels on Discord!
               <br />
             </div>
-            <a href='#' onClick={() => showzynga()}><div className='zyngagamedev' /></a>
+            <a href='#' onClick={(e) => showzynga(e)}><div className='zyngagamedev' /></a>
             <div className='zyngagamedevdesc' id='zynga'>
               Come and join Zynga for a comprehensive and interactive workshop on Mobile Game Development! We will be talking about everything that goes into creating a popular and long lasting Mobile Game, the teams and roles involved, and the challenges that come with designing in the mobile gaming space.
               <br /><br />
@@ -230,59 +247,59 @@ export default function Schedule () {
               Zoom link: <a href='https://usc.zoom.us/j/99617456324?pwd=ZmZjRG15ZS9iOVR2ZlU5Q0VmWFBWZz09'>https://usc.zoom.us/j/99617456324?pwd=ZmZjRG15ZS9iOVR2ZlU5Q0VmWFBWZz09</a>
               <br />
             </div>
-            <a href='#' onClick={() => showbloomberg()}><div className='bloombergdecode' /></a>
+            <a href='#' onClick={(e) => showbloomberg(e)}><div className='bloombergdecode' /></a>
             <div className='bloombergdecodedesc' id='bloomberg'>
               Bloomberg Engineering invites you to join us for a conversation to learn about who we are and what we do! Our engineers will discuss our work in the fintech space as well as their experiences as a software engineer at Bloomberg and living in NYC.
               <br /><br />
               Zoom link: <a href='https://usc.zoom.us/j/94003323297?pwd=UWpRUEFHSGV1djhaMDZkNnFHWTJMZz09'>https://usc.zoom.us/j/94003323297?pwd=UWpRUEFHSGV1djhaMDZkNnFHWTJMZz09</a>
               <br />
             </div>
-            <a href='#' onClick={() => showintrovertmsft()}><div className='introvertsmsft' /></a>
+            <a href='#' onClick={(e) => showintrovertmsft(e)}><div className='introvertsmsft' /></a>
             <div className='showintrovertmsftdesc' id='introvertmsft'>
               Ever heard that you need to network to get what you want, but don’t know how? Ever feel like you’re totally awkward in large groups and can’t stand out in a crowd even if you tried? This workshop is for you! You’ll learn how to identify what works for you in the networking world and how to build meaningful connections.
               <br /><br />
               Zoom link: <a href='https://usc.zoom.us/j/99837153722?pwd=QjFWaFBSeFhERXhsOCs4Uis0MllZdz09'>https://usc.zoom.us/j/99837153722?pwd=QjFWaFBSeFhERXhsOCs4Uis0MllZdz09</a>
               <br />
             </div>
-            <a href='#' onClick={() => showreactandrails()}><div className='reactandrails' /></a>
+            <a href='#' onClick={(e) => showreactandrails(e)}><div className='reactandrails' /></a>
             <div className='reactandrailsdesc' id='reactandrails'>
               Learn about the basic structure of a web application as you build one from scratch! We'll break down how models, controllers, views, and react components come together in web apps, all while helping you create a product of your own!
               <br /><br />
               Zoom link: <a href='https://usc.zoom.us/j/95369755010?pwd=UjZ6UTcrS3JtN1BpaWMvL3FweXZQQT09'>https://usc.zoom.us/j/95369755010?pwd=UjZ6UTcrS3JtN1BpaWMvL3FweXZQQT09</a>
               <br />
             </div>
-            <a href='#' onClick={() => showechoar()}><div className='echoar' /></a>
+            <a href='#' onClick={(e) => showechoar(e)}><div className='echoar' /></a>
             <div className='echoardesc' id='echoar'>
               The workshop will show how to quickly create augmented and virtual reality (AR/VR) apps with no technical skills or coding required and scale existing apps by connecting them to the cloud. Workshop participants will learn how to create real-time cloud-connected AR/VR apps using the echoAR platform. Participants will also discover how AR/VR are changing the world through the demonstration of different use cases of 3D applications and live demos of AR/VR experiences. Participants are encouraged to bring a laptop and a smartphone. Platforms for experimentation include: Google ARCore, WebXR, Vuforia, Unity-based apps, and more.
               <br /><br />
               Zoom link: <a href='https://usc.zoom.us/j/97413004796?pwd=NWt0ZVN2Y2hZMHRucnROVFN5dXdYZz09'>https://usc.zoom.us/j/97413004796?pwd=NWt0ZVN2Y2hZMHRucnROVFN5dXdYZz09</a>
               <br />
             </div>
-            <a href='#' onClick={() => showreplit()}><div className='replit' /></a>
+            <a href='#' onClick={(e) => showreplit(e)}><div className='replit' /></a>
             <div className='replitdesc' id='replit'>
               What does tech look like? We'll take a look at one career changer's journey to tech. Traditional or not, our paths to development have all been impacted by COVID. We've all had to adapt to this new remote environment — finding new ways to expand our network, get involved, and grow our skills. We'll discuss lessons learned, tips and tricks, and even a hackathon demo!
               <br /><br />
               Zoom link: <a href='https://usc.zoom.us/j/93946123855?pwd=WWJ2OW5LSzVRRXFwZ3ZMWHpIOHZvUT09'>https://usc.zoom.us/j/93946123855?pwd=WWJ2OW5LSzVRRXFwZ3ZMWHpIOHZvUT09</a>
               <br />
             </div>
-            <a href='#gcloud' name='gcloud' onClick={() => showgcloud()}><div className='gcloud' /></a>
+            <a href='#gcloud' name='gcloud' onClick={(e) => showgcloud(e)}><div className='gcloud' /></a>
             <div className='gclouddesc' id='gcloud'>
               After a brief introduction to Google Cloud, we’ll dive into three key products: App Engine, Machine Learning APIs, and Cloud Firestore. Each one will feature some cool demos and/or live coding.
               <br /><br />
               Zoom link: <a href='https://usc.zoom.us/j/92934716598?pwd=V0p1NklGZ2M5VHNJR0tJazJWREsvUT09'>https://usc.zoom.us/j/92934716598?pwd=V0p1NklGZ2M5VHNJR0tJazJWREsvUT09</a>
               <br />
             </div>
-            <a href='#werewolf' name='werewolf' onClick={() => showwerewolf()}><div className='werewolf' /></a>
+            <a href='#werewolf' name='werewolf' onClick={(e) => showwerewolf(e)}><div className='werewolf' /></a>
             <div className='werewolfdesc' id='werewolf'>
               Zoom link: <a href='https://usc.zoom.us/j/98408739893?pwd=WTd2MTlTQWVITWhDN0VLZDYyL2dCQT09'>https://usc.zoom.us/j/98408739893?pwd=WTd2MTlTQWVITWhDN0VLZDYyL2dCQT09</a>
               <br />
             </div>
-            <a href='#capturetheflag' name='capturetheflag' onClick={() => showcapturetheflag()}><div className='capturetheflag' /></a>
+            <a href='#capturetheflag' name='capturetheflag' onClick={(e) => showcapturetheflag(e)}><div className='capturetheflag' /></a>
             <div className='capturetheflagdesc' id='capturetheflag'>
               Zoom link: <a href='https://usc.zoom.us/j/98408739893?pwd=WTd2MTlTQWVITWhDN0VLZDYyL2dCQT09'>https://usc.zoom.us/j/98408739893?pwd=WTd2MTlTQWVITWhDN0VLZDYyL2dCQT09</a>
               <br />
             </div>
-            <a href='#bobross' name='bobross' onClick={() => showbobross()}><div className='bobross' /></a>
+            <a href='#bobross' name='bobross' onClick={(e) => showbobross(e)}><div className='bobross' /></a>
             <div className='bobrossdesc' id='bobross'>
               Zoom link: <a href='https://usc.zoom.us/j/94231908623?pwd=a0JVVlZ4R1lacFdSWWpTdmk4OG9HQT09'>https://usc.zoom.us/j/94231908623?pwd=a0JVVlZ4R1lacFdSWWpTdmk4OG9HQT09</a>
               <br />
@@ -293,25 +310,25 @@ export default function Schedule () {
           <h1>Sunday (PST)</h1>
           <div className='container'>
             <img alt='schedule2' src={ScheduleImg2} />
-            <a href='#yoga' name='yoga' onClick={() => showyoga()}><div className='yoga' /></a>
+            <a href='#yoga' name='yoga' onClick={(e) => showyoga(e)}><div className='yoga' /></a>
             <div className='yogadesc' id='yoga'>
               Zoom link: <a href='https://usc.zoom.us/j/92103576404?pwd=WGo0R3RPb3FlRmhudmdscWdUK2c5dz09'>https://usc.zoom.us/j/92103576404?pwd=WGo0R3RPb3FlRmhudmdscWdUK2c5dz09</a>
               <br />
             </div>
             <a href='#'><div className='hackingend' /></a>
-            <a href='#storypitchmsft' name='storypitchmsft' onClick={() => showmsftpitch()}><div className='storypitchmsft' /></a>
+            <a href='#storypitchmsft' name='storypitchmsft' onClick={(e) => showmsftpitch(e)}><div className='storypitchmsft' /></a>
             <div className='storypitchmsftdesc' id='storypitchmsft'>
               Learn how to tell a compelling story of your product when you pitch. Make your pitch effective by making it relatable, personal and real.
               <br /><br />
               Zoom link: <a href='https://usc.zoom.us/j/94087667047?pwd=WFdsNlRacXdXeE82dG5mVFhPZXRzUT09'>https://usc.zoom.us/j/94087667047?pwd=WFdsNlRacXdXeE82dG5mVFhPZXRzUT09</a>
               <br />
             </div>
-            <a href='#expoandjudging' name='expoandjudging' onClick={() => showexpoandjudging()}><div className='expoandjudging' /></a>
+            <a href='#expoandjudging' name='expoandjudging' onClick={(e) => showexpoandjudging(e)}><div className='expoandjudging' /></a>
             <div className='expoandjudgingdesc' id='expoandjudging'>
               Project Expo will be a mix of live and devpost only submissions. Be sure to fill out the project submission form to choose your presentation type here: <a href='https://airtable.com/shrtJF8Fflg9cRMXz'>https://airtable.com/shrtJF8Fflg9cRMXz</a>. If you have decided to present your project live, please describe how the judges can find you during Project Expo. We recommend using your team voice channel in Discord but you may choose to provide a Zoom or Google Meet link instead.
               <br />
             </div>
-            <a href='#closing' name='closing' onClick={() => showclosing()}><div className='closing' /></a>
+            <a href='#closing' name='closing' onClick={(e) => showclosing(e)}><div className='closing' /></a>
             <div className='closingdesc' id='closing'>
               Stream: <a href='https://www.youtube.com/watch?v=wB513SbGVk0'>https://www.youtube.com/watch?v=wB513SbGVk0</a>
               <br />
