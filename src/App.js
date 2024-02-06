@@ -5,38 +5,38 @@ import Schedule from './Schedule/Schedule'
 import FAQ from './FAQ/FAQ'
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
-  NavLink
+  Link
 } from 'react-router-dom'
 
 export default function App () {
   return (
-    <Router forceRefresh basename={process.env.PUBLIC_URL}>
+    <Router forceRefresh basename='/'>
       <div className='App-header'>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <NavLink
+        <Link
           className='App-link'
           exact to='/'
           activeClassName='selected'
         >
           OVERVIEW
-        </NavLink>
-        <NavLink
+        </Link>
+        <Link
           className='App-link'
           exact to='/schedule'
           activeClassName='selected'
         >
           SCHEDULE
-        </NavLink>
-        <NavLink
+        </Link>
+        <Link
           className='App-link'
           to='/faq'
           activeClassName='selected'
         >
           FAQ
-        </NavLink>
+        </Link>
 
       </div>
       <Switch>
