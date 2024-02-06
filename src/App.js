@@ -23,13 +23,13 @@ export default function App () {
         >
           OVERVIEW
         </Link>
-        <Link
+        {/* <Link
           className='App-link'
           exact to='/schedule'
           activeClassName='selected'
         >
           SCHEDULE
-        </Link>
+        </Link> */}
         <Link
           className='App-link'
           to='/faq'
