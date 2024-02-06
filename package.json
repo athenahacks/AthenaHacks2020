@@ -1,8 +1,8 @@
 {
   "name": "live2020",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://athenahacks.github.io/AthenaHacks2020/",
+  "private": false,
+  "homepage": "https://athenahacks.github.io/AthenaHacks2020",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-react": "^7.23.3",
