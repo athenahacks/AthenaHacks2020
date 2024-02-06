@@ -13,7 +13,7 @@ import {
 
 export default function App () {
   return (
-    <Router forceRefresh basename='/' path='/'>
+    <Router forceRefresh basename={process.env.PUBLIC_URL}>
       <div className='App-header'>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <NavLink
